@@ -1,0 +1,200 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Paragon';
+    src: url('../public/fonts/Parangon530C.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../public/fonts/ProximaNovaCond-Regular.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../public/fonts/ProximaNovaCond-Semibold.woff') format('woff');
+    font-weight: 600;
+}
+.ExternalWrapper{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.GoodCard{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.CardAdditionalInfo{
+    position: relative;
+    width: 100%;
+    background-color: #EFF5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: ProximaNova;
+    padding: 15px 0px 30px 13px;
+}
+.CardGroupText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6E6659;
+    margin-bottom: 15px;
+}
+.CardGoodName{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #264E58;
+    margin-bottom: 15px;
+    
+}
+.CardGoodArticle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A5A5A5;
+    margin-bottom: 14px;
+}
+.CardGoodArticle_GoodsArticle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #264E58;
+}
+.GoodCardPriceWrapper{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #A5A5A5;
+}
+.GoodCardPrice_LowText{
+    padding-top: 4px;
+}
+.GoodCardPrice_GoodsPrice{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color:#6E6659;
+    display: flex;
+    padding-left: 3px;
+    padding-right: 2px;
+    align-items: center;
+    
+}
+
+.BestsellerGoodMark{
+    display: flex;
+    margin: 10px 15px;
+    position: absolute;
+    padding: 2px 7px 3px 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: #A32018;
+    
+}
+.BestsellerGoodMark img{
+    width: 10px;
+}
+.BestsellerGoodMark p{
+    color: white;
+    font-size: 10px;
+    padding: 2px 0px 0px 4px;
+    font-family: Paragon;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    text-transform: uppercase;
+}
+
+.InStockGoodMark{
+    font-family: ProximaNova;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 8px;
+    line-height: 10px;
+    color: #4F493F;
+    display: flex;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 200px;
+    align-items: center;
+    padding: 3px 7px 4px 5px;
+    background-color: white;
+}
+.InStockGoodMark img{
+    margin-right: 3px;
+}
+.InStockGoodMark p{
+    font-size: 14px;
+}
+
+.DiscountGoodMark{
+    display: flex;
+    margin: 10px 15px;
+    position: absolute;
+    padding: 2px 7px 3px 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0CD1C;
+    
+}
+.DiscountGoodMark img{
+    width: 10px;
+}
+.DiscountGoodMark p{
+    color: white;
+    font-size: 10px;
+    padding: 2px 0px 0px 4px;
+    font-family: Paragon;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    text-transform: uppercase;
+}
+
+.NewGoodMark{
+    display: flex;
+    margin: 10px 15px;
+    position: absolute;
+    padding: 2px 7px 3px 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: #087A28;
+    
+}
+.NewGoodMark img{
+    width: 10px;
+}
+.NewGoodMark p{
+    color: white;
+    font-size: 10px;
+    padding: 2px 0px 0px 4px;
+    font-family: Paragon;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    text-transform: uppercase;
+}
