@@ -39,7 +39,7 @@ leftSideWrapperSubTitle.innerHTML = subTitle;
         accordeonHidenText.classList.add('ExternalWrapper_AccordeonRightBlock_Elem_HiddenText');
         accordeonHidenText.innerText = accordeonObj[elem];
         let accordeonArrow = document.createElement('img');
-        accordeonArrow.setAttribute("src", "../public/images/Down.svg");
+        accordeonArrow.setAttribute("src", "./public/images/Down.svg");
         accordeonArrow.classList.add('ExternalWrapper_AccordeonRightBlock_Elem_Arrow');
         let accordeonElemShowedDataWrapper = document.createElement('div');
         accordeonElemShowedDataWrapper.classList.add('ExternalWrapper_AccordeonRightBlock_Elem_ShowedDataWrapper');

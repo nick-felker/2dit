@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    padding: 30px 20px;
+    font-size: 24px;
+}
+header a{
+    text-decoration: none;
+    color: #70cae6
+}
+.ExternalWrapper{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ExternalWrapper a{
+    color: white;
+    padding: 20px 30px;
+    border-radius: 4px;
+    background-color: rgb(226, 172, 101);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+.ExternalWrapper a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}

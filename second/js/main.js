@@ -1,19 +1,19 @@
 const goodsArr = [
-    { imgSrc: '../public/images/GrayChair.png', bestseller: true, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
-    { imgSrc: '../public/images/ColloredChair.png', bestseller: false, discount: true, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: true, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
-    { imgSrc: '../public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: true, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
+    { imgSrc: './public/images/ColloredChair.png', bestseller: false, discount: true, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: true, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: true },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
+    { imgSrc: './public/images/GrayChair.png', bestseller: false, discount: false, new: false, goodGroup: 'Кресла театральные', goodName: 'Театральное кресло Прайм', article: '789-2341', price: '6 762', inStock: false },
 ]
 
 const externalWrapper = document.getElementsByClassName('ExternalWrapper')[0];
@@ -68,7 +68,7 @@ goodsArr.map((elem) => {
         let bestsellerText = document.createElement('p');
         bestsellerText.innerText = 'Хит продаж';
         let bestsellerIcon = document.createElement('img');
-        bestsellerIcon.setAttribute("src", "../public/images/Bestseller.svg");
+        bestsellerIcon.setAttribute("src", "./public/images/Bestseller.svg");
         bestsellerMark.append(bestsellerIcon);
         bestsellerMark.append(bestsellerText);
         goodCard.prepend(bestsellerMark);
@@ -79,7 +79,7 @@ goodsArr.map((elem) => {
         let discountText = document.createElement('p');
         discountText.innerText = 'Акция';
         let discountIcon = document.createElement('img');
-        discountIcon.setAttribute("src", "../public/images/Discount.svg");
+        discountIcon.setAttribute("src", "./public/images/Discount.svg");
         discountMark.append(discountIcon);
         discountMark.append(discountText);
         goodCard.prepend(discountMark);
@@ -90,7 +90,7 @@ goodsArr.map((elem) => {
         let newText = document.createElement('p');
         newText.innerText = 'Акция';
         let newIcon = document.createElement('img');
-        newIcon.setAttribute("src", "../public/images/New.svg");
+        newIcon.setAttribute("src", "./public/images/New.svg");
         newMark.append(newIcon);
         newMark.append(newText);
         goodCard.append(newMark);
@@ -101,7 +101,7 @@ goodsArr.map((elem) => {
         let inStockText = document.createElement('p');
         inStockText.innerText = 'В наличии';
         let inStockIcon = document.createElement('img');
-        inStockIcon.setAttribute("src", "../public/images/CheckMark.svg");
+        inStockIcon.setAttribute("src", "./public/images/CheckMark.svg");
         inStockMark.append(inStockIcon);
         inStockMark.append(inStockText);
         goodCard.append(inStockMark);
